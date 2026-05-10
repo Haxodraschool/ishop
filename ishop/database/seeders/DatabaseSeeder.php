@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
             ProductSeeder::class,    // products trước (order_items cần products_id)
             OrderSeeder::class,      // orders trước (order_items cần orders_id)
             OrderItemSeeder::class,  // order_items sau cùng
+            RoleSeeder::class,       // roles & permissions sau khi user đã có
         ]);
     }
 }
